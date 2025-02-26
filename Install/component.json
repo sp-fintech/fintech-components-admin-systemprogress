@@ -1,0 +1,38 @@
+{
+	"name" : "Progress",
+	"route" : "system/progress",
+	"description" : "Manage progress of execution via this component",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "admin",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-components-admin-systemprogress",
+	"class" : "Apps\\Fintech\\Components\\System\\Progress\\ProgressComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.11",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : [],
+		"externals" : [],
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		}
+	},
+	"menu" : "false",
+	"settings" : 
+	{
+		"mandatory" : true
+	},
+	"widgets" : []
+}
